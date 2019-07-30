@@ -1,0 +1,157 @@
+﻿*{
+    z-index:1;
+}
+
+.navbar-inverse .navbar-brand, .navbar-toggle {
+    color: #fff;
+}
+
+body {
+    background: #f9800e;
+}
+
+.conteudo {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+main {
+    background: #fff;
+    min-height: 200px;
+    border-radius: 10px;
+}
+
+.page-header {
+    margin-top: 0;
+}
+
+.panel {
+    margin-bottom: 10px;
+}
+
+main .container-fluid {
+    padding-bottom: 20px;
+}
+
+.no-margin-top {
+    margin-top: 0;
+}
+
+.side-table {
+    margin: 0;
+    overflow: auto;
+}
+
+    .side-table tbody tr td {
+        text-align: center;
+    }
+
+.buttons-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.breadcrumb {
+    margin-bottom: 0;
+}
+
+.wrap-table {
+    display: block;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+    .wrap-table table {
+        margin: 0;
+    }
+
+.full-width {
+    width: 100%;
+}
+
+.full-width-block {
+    width: 100%;
+    display: block;
+}
+
+.text-resposta, .select-resposta {
+    margin-top: 10px;
+}
+
+.list-group-item.has-error {
+    border: 1px solid #a94442;
+}
+
+.input-sm {
+    height: 24px;
+}
+
+.panel-nota-interno{     
+    top: 72px;    
+    right:190px;
+    /*left:1410px;*/   
+    /*top: 666px;
+    left: 1200px;*/
+}
+
+.panel-nota-tsa{     
+    top: 240px;
+    right:190px;
+    /*left:1410px;*/  
+    /*top: 666px;
+    left: 1000px;*/
+}
+
+.panel-nota {
+    /*padding: 0 14px 8px 14px;*/
+    background: #fff;
+    border-radius: 8px;
+    position: fixed;
+    right: 20px;
+    width: 160px;
+    text-align: center;
+    z-index: 9999;    
+    pointer-events:all;
+}
+
+.panel-nota .panel-heading {
+    cursor: move;
+}
+
+#formularioContainer .list-group-item{
+    padding: 0 15px;
+}
+
+.text-pergunta{
+    margin-bottom:15px;
+}
+.btn-sm-custom{
+    padding: 3px 6px;
+}
+
+.form-control.small{
+    font-size:12px;
+    overflow:auto;
+}
+.list-group-sm-custom .list-group-item{
+    padding: 2px 10px;
+    outline:none;
+}
+.select-resposta.bg-danger{    
+    background-color: #ffcdd2;
+}
+
+#atendentesSelecionados{
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.whole-page-fixed{
+    top:0;
+    left:0;
+    height: 100vh;
+    width: 100vw;
+    position:fixed;   
+    z-index:2;
+    pointer-events: none;
+}
